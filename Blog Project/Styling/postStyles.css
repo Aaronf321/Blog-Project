@@ -23,8 +23,23 @@ p{
     width: 100%;
     grid-column: 1 / 4;
 }
+#author-info{
+    grid-column:1;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    
+}
+#author-info>p{
+    font-size: 15px;;
+}
+#avatar-img{
+   align-self: center;
+    width:35px;
+    height:35px;
+}
 #budget-img{
-    grid-column:2 / -1;
+    grid-column:3 / -1;
     align-self:flex-start;
     
 }
@@ -41,6 +56,7 @@ p{
     grid-gap:20px;
    justify-items: center;
    grid-template-columns: 3fr 12fr 5fr;
+  
 }
 
 .post> *{
@@ -99,6 +115,9 @@ p{
       flex-direction: row;
       justify-content: center;
       
+  }
+  h2{
+      font-size: 50px;
   }
   
   
