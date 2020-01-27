@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Calistoga|Raleway:600&display=swap");
+
+body {
+    /* background-image: url(https://www.mlbonlinegiants.co?m/wp-content/uploads/simple-light-blue-background-hd-adorable-background-ppt-simple.jpg); */
+
+    background-image: url("file:///Applications/UdacityNanoDegree/Blog%20Project/images/red-white-abstract.jpg");
+    background-size: 100% 47%;
+    background-repeat: no-repeat;
+    background-position: start;
+}
+
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+    margin: 200px auto;
+    grid-gap: 20px;
+    justify-items: center;
+    grid-template-columns: 3fr 12fr 5fr;
+    grid-auto-rows: repeat(autofill, 200px);
+    justify-content: center;
+
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    grid-column: 2/-1;
+    align-items: center;
+
+
+}
+
+.nav-btn {
+    margin: 65px;
+    font-size: 40px;
+    font-family: bold;
+}
+
+#blog-btn {
+    color: #fafafa;
+    border-left: 2px solid #fafafa;
+    border-right: 2px solid #fafafa;
+}
+
+.nav-btn:hover {
+    color: #fafafa;
+    border-left: 2px solid #fafafa;
+    border-right: 2px solid #fafafa;
+}
+
+.container>* {
+    grid-column: 2 / span 1;
+}
+
+.container>.header-img {
+    grid-column: 2 / -1;
+    grid-row: span 2;
+    width: 100%;
+
+}
+
+#img-header {
+    width: 100%;
+    grid-column: 2 / -1;
+    height: 500px;
+}
+
+.post-gallery {
+    grid-column: 2 / -1;
+    grid-row: 5 / span 3;
+    display: grid;
+    grid-gap: 35px;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+a {
+    font-size: 15px;
+}
+
+.container>.heading-title {
+    grid-column: 2/span 3;
+    font-size: 50px;
+    align-items: center;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: left;
+    grid-column: 3/-1;
+    grid-row: 5;
+    height: 300px;
+    border-left: solid rgb(0, 0, 0);
+}
+
+#articles-title {
+    text-decoration: underline;
+}
+
+.gallery-cards {
+    display: flex;
+    flex: 1 1 auto;
+    box-shadow: 8px 8px 10px rgb(90, 3, 3);
+    width: 250px;
+
+}
+

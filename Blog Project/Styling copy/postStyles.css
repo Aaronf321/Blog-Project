@@ -1,0 +1,136 @@
+body {
+    /* background-image: url(https://www.mlbonlinegiants.co?m/wp-content/uploads/simple-light-blue-background-hd-adorable-background-ppt-simple.jpg); */
+
+    /* background-image: url("file:///Applications/UdacityNanoDegree/Blog%20Project/images/simple-light-blue-background-hd-adorable-background-ppt-simple.jpg"); */
+    /* background-image: url("https://www.designbolts.com/wp-content/uploads/2012/12/White-wall-Seamless-Pattern-For-Website-Background.jpg"); */
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/357/971/733/fruit-white-background-simple-background-minimalism-wallpaper-preview.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Raleway', 'sans-serif'
+}
+
+.title {
+    display: flex;
+    font-size: 50px;
+    font-family: 'calistoga', 'cursive';
+
+}
+
+#first-img {
+    width: 100%;
+    grid-column: 1 / 4;
+}
+
+#author-info {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#author-info>p {
+    font-size: 15px;
+
+}
+
+#avatar-img {
+    align-self: center;
+    width: 35px;
+    height: 35px;
+}
+
+#budget-img {
+    grid-column: 3 / -1;
+    align-self: flex-start;
+
+}
+
+.budget-info {
+    display: flex;
+    flex: 1 1 auto;
+    grid-row: span 3;
+}
+
+.post {
+    display: grid;
+
+    margin: 200px auto;
+    grid-gap: 20px;
+    justify-items: center;
+    grid-template-columns: 3fr 12fr 5fr;
+
+}
+
+.post>* {
+    grid-column: 2 / span 1;
+
+}
+
+img{
+    
+    max-width: 100%;
+}
+
+.post>figure {
+    grid-column: 2/3;
+}
+
+.post>blockquote {
+    grid-column: 1 / -1;
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+figcaption {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+.tip {
+
+    grid-row: span 5;
+    background: #fafafa
+}
+
+.tip-right {
+    grid-column: 3/ -1;
+    grid-row: 9;
+    border-left: 2px solid orange;
+    text-align: left;
+    align-self: start;
+}
+
+
+.list-title {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 30px;
+}
+
+#five-tips-img {
+    grid-column: 3 / -1;
+    grid-row: span 3;
+}
+
+footer>.social-media-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+h2 {
+    font-size: 50px;
+}
+
+\
